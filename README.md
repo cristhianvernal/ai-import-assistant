@@ -94,7 +94,7 @@ The project is structured for modularity and scalability:
 
 ## Screenshots
 
-*(Add screenshots of your application here: e.g., The File Upload screen, The Validation Editor, and The Final Excel Output)*
+
 
 ## Disclaimer
 
