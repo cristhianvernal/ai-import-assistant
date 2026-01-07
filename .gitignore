@@ -1,0 +1,48 @@
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Data & results (optional but recommended for privacy)
+*.pdf
+*.xlsx
+*.csv
+!catalog_template.csv # Example of keeping a template if needed
+
+# Environments
+.venv
+venv
+ENV
+env.bak
+venv.bak
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Frontend remnants
+node_modules/
+.next/
+out/
