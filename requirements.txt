@@ -4,4 +4,7 @@ python-dotenv
 google-generativeai
 openpyxl
 python-dateutil
-
+pdfplumber
+pdf2image
+Pillow
+psycopg2-binary
