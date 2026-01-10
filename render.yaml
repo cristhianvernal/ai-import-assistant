@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: asistente-importaciones
+    env: docker
+    plan: free # Puedes cambiarlo a 'starter' si necesitas más recursos
+    region: oregon # O la región más cercana
+    branch: main # Asume que tu rama principal se llama main (o master)
+    numInstances: 1
+    healthCheckPath: /healthz
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false # false significa que tú debes ingresarla manualmente en el dashboard de Render por seguridad
+      - key: DATABASE_URL
+        sync: false
